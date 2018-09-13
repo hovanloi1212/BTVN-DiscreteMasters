@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.25)  12 SEP 2018 12:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.25)  13 SEP 2018 16:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1763,24 +1763,24 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 36.
 (./solution.aux)
 \openout1 = `solution.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1821,7 +1821,7 @@ Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 105.
+(lastpage)             ! on input line 103.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1857,7 +1857,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 105.
+Package hyperref Info: Link coloring ON on input line 103.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1866,9 +1866,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count346
 )
-LaTeX Info: Redefining \ref on input line 105.
-LaTeX Info: Redefining \pageref on input line 105.
-LaTeX Info: Redefining \nameref on input line 105.
+LaTeX Info: Redefining \ref on input line 103.
+LaTeX Info: Redefining \pageref on input line 103.
+LaTeX Info: Redefining \nameref on input line 103.
 
 (./solution.out) (./solution.out)
 \@outlinefile=\write4
@@ -1877,24 +1877,24 @@ LaTeX Info: Redefining \nameref on input line 105.
 <Images/hcmut.png, id=437, 272.01625pt x 277.035pt>
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 118.
+Package pdftex.def Info: Images/hcmut.png  used on input line 116.
 (pdftex.def)             Requested size: 85.35826pt x 86.93253pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 126.
+LaTeX Font Info:    Try loading font information for U+msa on input line 124.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 126.
+LaTeX Font Info:    Try loading font information for U+msb on input line 124.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 126.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 124.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Overfull \hbox (22.61269pt too wide) in paragraph at lines 142--149
+Overfull \hbox (22.61269pt too wide) in paragraph at lines 140--147
 [][] 
  []
 
@@ -1928,24 +1928,24 @@ Package pdftex.def Info: Images/hcmut.png  used on input line 93.
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 154.
+Package pdftex.def Info: Images/hcmut.png  used on input line 152.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [3]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 159.
+Package pdftex.def Info: Images/hcmut.png  used on input line 157.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [4]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 162.
+Package pdftex.def Info: Images/hcmut.png  used on input line 160.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [5
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 165.
+Package pdftex.def Info: Images/hcmut.png  used on input line 163.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 
 [6
@@ -1953,105 +1953,156 @@ Package pdftex.def Info: Images/hcmut.png  used on input line 165.
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 168.
+Package pdftex.def Info: Images/hcmut.png  used on input line 166.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [7
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 171.
+Package pdftex.def Info: Images/hcmut.png  used on input line 169.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [8
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 174.
+Package pdftex.def Info: Images/hcmut.png  used on input line 172.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [9
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 177.
+Package pdftex.def Info: Images/hcmut.png  used on input line 175.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [10
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 180.
+Package pdftex.def Info: Images/hcmut.png  used on input line 178.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [11
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 183.
+Package pdftex.def Info: Images/hcmut.png  used on input line 181.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [12
 
 ]
-File: Images/hcmut.png Graphic file (type png)
-<use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 186.
-(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [13
+Underfull \hbox (badness 10000) in paragraph at lines 183--194
 
-]
-File: Images/hcmut.png Graphic file (type png)
-<use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 189.
-(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [14
+ []
 
-]
-File: Images/hcmut.png Graphic file (type png)
-<use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 192.
-(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [15
 
-]
+Underfull \hbox (badness 10000) in paragraph at lines 183--194
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--194
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--194
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--194
+
+ []
+
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
 Package pdftex.def Info: Images/hcmut.png  used on input line 195.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [16
+[13
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 197--200
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--200
+
+ []
+
+File: Images/hcmut.png Graphic file (type png)
+<use Images/hcmut.png>
+Package pdftex.def Info: Images/hcmut.png  used on input line 200.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+[14
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 202--205
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--205
+
+ []
+
+File: Images/hcmut.png Graphic file (type png)
+<use Images/hcmut.png>
+Package pdftex.def Info: Images/hcmut.png  used on input line 205.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+[15
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 207--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--212
+
+ []
+
+File: Images/hcmut.png Graphic file (type png)
+<use Images/hcmut.png>
+Package pdftex.def Info: Images/hcmut.png  used on input line 212.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+[16
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 198.
+Package pdftex.def Info: Images/hcmut.png  used on input line 215.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [17
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 201.
+Package pdftex.def Info: Images/hcmut.png  used on input line 218.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [18
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 204.
+Package pdftex.def Info: Images/hcmut.png  used on input line 221.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [19
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 207.
+Package pdftex.def Info: Images/hcmut.png  used on input line 224.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [20
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 214.
+Package pdftex.def Info: Images/hcmut.png  used on input line 231.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [21
 
@@ -2059,297 +2110,454 @@ Package pdftex.def Info: Images/hcmut.png  used on input line 214.
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 217.
+Package pdftex.def Info: Images/hcmut.png  used on input line 234.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-
-[22
+ [22
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 220.
+Package pdftex.def Info: Images/hcmut.png  used on input line 237.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [23
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 223.
+Package pdftex.def Info: Images/hcmut.png  used on input line 240.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [24
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 226.
+Package pdftex.def Info: Images/hcmut.png  used on input line 243.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [25
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 229.
+Package pdftex.def Info: Images/hcmut.png  used on input line 246.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [26
 
 ]
-File: Images/hcmut.png Graphic file (type png)
-<use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 232.
-(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [27
+Underfull \hbox (badness 6252) in paragraph at lines 248--256
+\T5/cmr/bx/n/10 ^^^· b i: \T5/cmr/m/n/10 Find an as-sign-ment of the vari-ables
+ $\OML/cmm/m/it/10 p; q; r$ \T5/cmr/m/n/10 such that the propo-si-tion
+ []
 
-]
-File: Images/hcmut.png Graphic file (type png)
-<use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 235.
-(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [28
 
-]
-File: Images/hcmut.png Graphic file (type png)
-<use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 238.
-(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [29
+Underfull \hbox (badness 10000) in paragraph at lines 248--256
 
-]
-File: Images/hcmut.png Graphic file (type png)
-<use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 244.
-(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [30
+ []
 
-]
-File: Images/hcmut.png Graphic file (type png)
-<use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 247.
-(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [31
 
-]
-File: Images/hcmut.png Graphic file (type png)
-<use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 250.
-(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [32
+Underfull \hbox (badness 10000) in paragraph at lines 248--256
 
-]
-File: Images/hcmut.png Graphic file (type png)
-<use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 253.
-(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [33
+ []
 
-]
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--256
+
+ []
+
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
 Package pdftex.def Info: Images/hcmut.png  used on input line 256.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [34
+[27
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
 Package pdftex.def Info: Images/hcmut.png  used on input line 259.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [35
+ [28
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
 Package pdftex.def Info: Images/hcmut.png  used on input line 262.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [36
-
-]
-File: Images/hcmut.png Graphic file (type png)
-<use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 265.
-(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-
-[37
+ [29
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
 Package pdftex.def Info: Images/hcmut.png  used on input line 268.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [38
+ [30
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
 Package pdftex.def Info: Images/hcmut.png  used on input line 271.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [39
+ [31
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
 Package pdftex.def Info: Images/hcmut.png  used on input line 274.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [40
+ [32
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
 Package pdftex.def Info: Images/hcmut.png  used on input line 277.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [41
+ [33
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
 Package pdftex.def Info: Images/hcmut.png  used on input line 280.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [42
+ [34
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
 Package pdftex.def Info: Images/hcmut.png  used on input line 283.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [43
+ [35
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
 Package pdftex.def Info: Images/hcmut.png  used on input line 286.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [44
+ [36
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
 Package pdftex.def Info: Images/hcmut.png  used on input line 289.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [45
+ [37
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
 Package pdftex.def Info: Images/hcmut.png  used on input line 292.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [46
+ [38
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
 Package pdftex.def Info: Images/hcmut.png  used on input line 295.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [47
+ [39
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
 Package pdftex.def Info: Images/hcmut.png  used on input line 298.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [48
+ [40
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
 Package pdftex.def Info: Images/hcmut.png  used on input line 301.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [49
+ [41
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
 Package pdftex.def Info: Images/hcmut.png  used on input line 304.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [50
+
+[42
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
 Package pdftex.def Info: Images/hcmut.png  used on input line 307.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [51
+ [43
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
 Package pdftex.def Info: Images/hcmut.png  used on input line 310.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-
-[52
+ [44
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
 Package pdftex.def Info: Images/hcmut.png  used on input line 313.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [53
+ [45
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
 Package pdftex.def Info: Images/hcmut.png  used on input line 316.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [54
+ [46
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
 Package pdftex.def Info: Images/hcmut.png  used on input line 319.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [55
+ [47
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
 Package pdftex.def Info: Images/hcmut.png  used on input line 322.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+ [48
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 324--328
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--328
+
+ []
+
+File: Images/hcmut.png Graphic file (type png)
+<use Images/hcmut.png>
+Package pdftex.def Info: Images/hcmut.png  used on input line 328.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+[49
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 330--336
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--336
+
+ []
+
+File: Images/hcmut.png Graphic file (type png)
+<use Images/hcmut.png>
+Package pdftex.def Info: Images/hcmut.png  used on input line 337.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+[50
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 339--350
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--350
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--350
+
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 339--350
+\T5/cmr/m/n/10 Thªt vªy, n¸u $\OML/cmm/m/it/10 n$ \T5/cmr/m/n/10 l  sè l´ th¼ t
+çn t¤i sè nguy¶n $\OML/cmm/m/it/10 k$ \T5/cmr/m/n/10 sao cho $\OML/cmm/m/it/10 
+n \OT1/cmr/m/n/10 = 2\OML/cmm/m/it/10 k \OT1/cmr/m/n/10 + 1$\T5/cmr/m/n/10 . Kh
+i ^^_â:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--350
+
+ []
+
+File: Images/hcmut.png Graphic file (type png)
+<use Images/hcmut.png>
+Package pdftex.def Info: Images/hcmut.png  used on input line 351.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+[51
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 353--365
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--365
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--365
+
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 353--365
+\T5/cmr/m/n/10 Thªt vªy, n¸u $\OML/cmm/m/it/10 n$ \T5/cmr/m/n/10 l  sè l´ th¼ t
+çn t¤i sè nguy¶n $\OML/cmm/m/it/10 k$ \T5/cmr/m/n/10 sao cho $\OML/cmm/m/it/10 
+n \OT1/cmr/m/n/10 = 2\OML/cmm/m/it/10 k \OT1/cmr/m/n/10 + 1$\T5/cmr/m/n/10 . Kh
+i ^^_â:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--365
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--365
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--365
+
+ []
+
+File: Images/hcmut.png Graphic file (type png)
+<use Images/hcmut.png>
+Package pdftex.def Info: Images/hcmut.png  used on input line 365.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+[52
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 367--372
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--372
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--381
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--381
+
+ []
+
+File: Images/hcmut.png Graphic file (type png)
+<use Images/hcmut.png>
+Package pdftex.def Info: Images/hcmut.png  used on input line 382.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+[53
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 384--390
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--390
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 399--401
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--405
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--411
+
+ []
+
+File: Images/hcmut.png Graphic file (type png)
+<use Images/hcmut.png>
+Package pdftex.def Info: Images/hcmut.png  used on input line 414.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+[54
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 416--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 431--434
+
+ []
+
+File: Images/hcmut.png Graphic file (type png)
+<use Images/hcmut.png>
+Package pdftex.def Info: Images/hcmut.png  used on input line 445.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+[55
+
+]
+File: Images/hcmut.png Graphic file (type png)
+<use Images/hcmut.png>
+Package pdftex.def Info: Images/hcmut.png  used on input line 448.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [56
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 325.
+Package pdftex.def Info: Images/hcmut.png  used on input line 451.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [57
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 328.
+Package pdftex.def Info: Images/hcmut.png  used on input line 454.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [58
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 331.
+Package pdftex.def Info: Images/hcmut.png  used on input line 457.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [59
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 334.
+Package pdftex.def Info: Images/hcmut.png  used on input line 460.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [60
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 337.
+Package pdftex.def Info: Images/hcmut.png  used on input line 463.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [61
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 340.
+Package pdftex.def Info: Images/hcmut.png  used on input line 466.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [62
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 347.
+Package pdftex.def Info: Images/hcmut.png  used on input line 473.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [63
 
@@ -2357,250 +2565,316 @@ Package pdftex.def Info: Images/hcmut.png  used on input line 347.
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 350.
+Package pdftex.def Info: Images/hcmut.png  used on input line 476.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [64
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 353.
+Package pdftex.def Info: Images/hcmut.png  used on input line 479.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [65
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 481--485
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 481--485
+
+ []
+
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 356.
+Package pdftex.def Info: Images/hcmut.png  used on input line 494.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [66
+[66
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 359.
+Package pdftex.def Info: Images/hcmut.png  used on input line 497.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-
-[67
+ [67
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 362.
+Package pdftex.def Info: Images/hcmut.png  used on input line 500.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [68
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 368.
+Package pdftex.def Info: Images/hcmut.png  used on input line 506.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [69
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 371.
+Package pdftex.def Info: Images/hcmut.png  used on input line 509.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [70
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 374.
+Package pdftex.def Info: Images/hcmut.png  used on input line 512.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [71
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 514--515
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 522--527
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 522--527
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 522--527
+
+ []
+
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 377.
+Package pdftex.def Info: Images/hcmut.png  used on input line 534.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [72
+[72
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 380.
+Package pdftex.def Info: Images/hcmut.png  used on input line 537.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [73
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 382.
+Package pdftex.def Info: Images/hcmut.png  used on input line 539.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [74
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 388.
+Package pdftex.def Info: Images/hcmut.png  used on input line 545.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [75
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 391.
+Package pdftex.def Info: Images/hcmut.png  used on input line 548.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [76
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 394.
+Package pdftex.def Info: Images/hcmut.png  used on input line 551.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [77
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 397.
+Package pdftex.def Info: Images/hcmut.png  used on input line 554.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [78
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 400.
+Package pdftex.def Info: Images/hcmut.png  used on input line 557.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [79
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 403.
+Package pdftex.def Info: Images/hcmut.png  used on input line 560.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [80
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 562--563
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 567--573
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 567--573
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 567--573
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 567--573
+
+ []
+
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 406.
+Package pdftex.def Info: Images/hcmut.png  used on input line 577.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [81
+[81
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 409.
+Package pdftex.def Info: Images/hcmut.png  used on input line 580.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-
-[82
+ [82
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 411.
+Package pdftex.def Info: Images/hcmut.png  used on input line 582.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [83
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 417.
+Package pdftex.def Info: Images/hcmut.png  used on input line 588.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [84
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 420.
+Package pdftex.def Info: Images/hcmut.png  used on input line 591.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [85
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 423.
+Package pdftex.def Info: Images/hcmut.png  used on input line 594.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [86
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 596--605
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 596--605
+
+ []
+
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 426.
+Package pdftex.def Info: Images/hcmut.png  used on input line 605.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [87
+[87
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 429.
+Package pdftex.def Info: Images/hcmut.png  used on input line 608.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [88
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 432.
+Package pdftex.def Info: Images/hcmut.png  used on input line 611.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [89
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 438.
+Package pdftex.def Info: Images/hcmut.png  used on input line 617.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [90
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 441.
+Package pdftex.def Info: Images/hcmut.png  used on input line 620.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [91
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 444.
+Package pdftex.def Info: Images/hcmut.png  used on input line 623.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [92
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 447.
+Package pdftex.def Info: Images/hcmut.png  used on input line 626.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [93
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 450.
+Package pdftex.def Info: Images/hcmut.png  used on input line 629.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [94
 
-]
-
+] 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 456.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 456.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 635.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 635.
 (./solution.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 456.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 456.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 635.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 635.
 Package rerunfilecheck Info: File `solution.out' has not changed.
 (rerunfilecheck)             Checksum: 9ACD69E9D5D4D0E67D3F90269F491D07;14251.
  ) 
 Here is how much of TeX's memory you used:
- 35030 strings out of 492982
- 648050 string characters out of 6134896
- 712376 words of memory out of 5000000
- 37833 multiletter control sequences out of 15000+600000
- 542682 words of font info for 45 fonts, out of 8000000 for 9000
+ 35054 strings out of 492982
+ 648213 string characters out of 6134896
+ 711368 words of memory out of 5000000
+ 37834 multiletter control sequences out of 15000+600000
+ 543666 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,25n,76p,10428b,472s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnbx10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/vntex/vnr/vnr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/v
-ntex/vnr/vntt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vntt8.
-pfb>
-Output written on solution.pdf (95 pages, 153899 bytes).
+ 67i,25n,76p,10428b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnbx10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/vntex/vnr/vnr10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/vntex/vnr/vntt10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/vntex/vnr/vntt8.pfb>
+Output written on solution.pdf (95 pages, 254359 bytes).
 PDF statistics:
- 1117 PDF objects out of 1200 (max. 8388607)
- 1002 compressed objects within 11 object streams
- 205 named destinations out of 1000 (max. 500000)
+ 1181 PDF objects out of 1200 (max. 8388607)
+ 1057 compressed objects within 11 object streams
+ 227 named destinations out of 1000 (max. 500000)
  874 words of extra memory for PDF output out of 10000 (max. 10000000)
 
