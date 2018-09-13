@@ -1,5 +1,6 @@
 # BTVN-DiscreteMasters
 Đây là nơi dùng để kiểm soát bài làm BTVN của team Discrete Masters.
+
 Cách sử dụng: 
 * Lấy files xuống: tải thư mục Solution xuống và viết bài của mình vào (chỉ cần tải 1 lần).
 * Up files lên: 
