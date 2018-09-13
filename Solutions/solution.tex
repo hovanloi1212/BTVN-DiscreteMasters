@@ -171,13 +171,118 @@ KHOA KHOA HỌC - KỸ THUẬT MÁY TÍNH
 
 \clearpage
 \subsubsection{Bài tập 7}
-
+\textbf
+	\begin{enumerate}
+		\item [a)]
+		$11000 \land (01011 \lor 11011)$\\$\equiv11000 \land 11011$\\$\equiv11000$
+		\item [b)]
+		$(01111 \land 10101) \lor 01000$\\$\equiv 00101 \lor 01000$\\ $\equiv 01101$\\
+	\end{enumerate}
 \clearpage
 \subsubsection{Bài tập 8}
-
+\begin{enumerate}
+		\item [a)]  $(p \land q) \implies p$ \\
+					$\equiv \lnot(p \land q) \lor p$ \\
+					$\equiv \lnot p \lor \lnot q \lor p $\\
+					$\equiv T \lor \lnot q $\\
+					$\equiv T$\\
+		\item [b)]  $p \implies (p \lor q) $\\
+					$\equiv  \lnot p \lor p \lor q $\\
+					$\equiv  T \lor q $\\
+					$\equiv T $\\
+		\item [c)]  $\lnot p \implies (p \implies q) $ \\
+					$\equiv \lnot p \implies (\lnot p \lor q )$\\
+					$\equiv  \lnot (\lnot p) \lor \lnot p \lor q $\\
+					$\equiv  p \lor \lnot p \lor q $\\ $\equiv T \lor q $\\
+					$\equiv T$\\
+		\item[d)]   $(p \land q) \implies (p \implies q)$\\
+					$\equiv (p \land q) \implies (\lnot p \lor q) $\\
+					$\equiv  \lnot (p \land q ) \lor \lnot p \lor q $\\
+					$\equiv \lnot p \lor \lnot q \lor \lnot p \lor q $\\
+					$\equiv T \lor q $\\
+					$\equiv T$\\
+		\item[e)]   $\lnot (p \implies q) \implies p $\\
+					$\equiv \lnot [\lnot(p \implies q)] \lor p $\\
+					$\equiv (p \implies q) \lor p $\\ $\equiv \lnot p \lor q \lor p $\\
+					$\equiv T \lor q  $\\
+					$\equiv T$
+		\item[f)]   $\lnot(p \implies q) \implies \lnot q $\\
+					$\equiv \lnot[\lnot(p \implies q)] \lor \lnot q $\\
+					$\equiv (p \implies q) \lor \lnot q $\\
+					$\equiv \lnot p \lor q \lor \lnot q $\\
+					$\equiv T \lor \lnot p $\\
+					$\equiv T$
+		\item[g)]   $[\lnot p \land (p \lor q )] \implies q $\\
+					$\equiv \lnot [\lnot p \land (p \lor q )] \lor q $\\
+					$\equiv  [p \lor (\lnot p \land \lnot q)] \lor q$\\
+					$\equiv  [(p \lor \lnot p) \land (p \lor \lnot q )] \lor q$\\ $\equiv (T \land p \lor \lnot q) \lor q$\\
+					$\equiv  p \lor \lnot q \lor q $\\
+					$\equiv  p \lor T $\\
+					$\equiv T$\\
+		\item[h)]   $[(p \implies q) \land (q \implies r)] \implies (p \implies r)$\\
+					$\equiv \lnot [(\lnot p \lor q) \land (\lnot q \lor r)] \lor (\lnot p \lor r)$\\
+					$\equiv (p \land \lnot q) \lor (q \land \lnot r) \lor (\lnot p \lor r)$\\
+					$\equiv [\lnot p \lor (p \land \lnot q)] \lor [r \lor (q \land \lnot r)] $\\
+					$\equiv [(\lnot p \lor p) \land (\lnot p \lor \lnot q)] \lor [(r \lor q) \land (r \lor \lnot r)]$\\
+					$\equiv [T \land (\lnot p \lnot q )] \lor [(r \lor q) \land T]$\\
+					$\equiv  \lnot p \lor \lnot q \lor r \lor q $\\
+					$\equiv  T \lor \lnot p \lor r$\\
+					$\equiv T$\\
+	\end{enumerate}
 \clearpage
 \subsubsection{Bài tập 9}
-
+\begin{enumerate}
+		\item[a)] $\lnot (p \iff q)$ và $\lnot p \iff q$
+			\begin{table} [h]
+			\centering
+			\begin{tabular} {|c|c|c|c|c|c|c|}
+				\hline
+				$p$&$q$&$\lnot p$&$  p \iff q$&$\lnot (p \iff q)$&$ \lnot p \iff q$& $\lnot (p \iff q) \vDash \lnot p \iff q$\\
+				\hline
+				1&0&0&0&0&1&1\\
+				1&1&0&1&0&0&1\\
+				0&1&1&0&1&1&1\\
+				0&0&1&1&0&0&1\\
+				\hline
+			\end{tabular}
+		\end{table}
+		\item[b)]	$(p \implies q) \land (p \implies r) $ và $ p \implies (q \land r)$\\
+					$(p \implies q) \land (p \implies r)$\\
+					$\equiv (\lnot p \lor q) \land (\lnot p \lor r)$\\
+					$\equiv  \lnot p \land (q \lor r)$\\
+					$\equiv  p \implies (q \lor r)$\\
+		 \item[c)]  $(p\implies r) \land (q \implies r) $ và $ (p \lor q) \implies r$\\ 
+		 			$(p\implies r) \land (q \implies r)$\\
+		 			$\equiv (\lnot p \lor r) \land (\lnot q \lor r)$\\
+		 			$\equiv (\lnot q \land \lnot p) \lor r$\\
+		 			$\equiv  \lnot(\lnot p \land \lnot q) \implies r$\\
+		 			$\equiv (p \lor q) \implies r$\\
+		 \item[d)]	$(p \implies q) \lor (p \implies r) $ và $ p \implies (q \lor r)$\\
+		 			$(p \implies q) \lor (p \implies r)$\\
+		 			$\equiv  \lnot p \lor q \lor \lnot p \lor r$\\
+		 			$\equiv  \lnot p \lor (q \lor r)$\\ $\equiv  p \implies (q \lor r)$\\
+		 \item[e)]	$\lnot p \implies (q \implies r) $ và $ q \implies (p \lor r)$\\
+		 			$\lnot p \implies (q \implies r)$\\
+		 			$\equiv  \lnot p \implies (\lnot q \lor r)$\\
+		 			$\equiv  \lnot (\lnot p) \lor \lnot q \lor r)$\\
+		 			$\equiv p \lor \lnot q \lor r$\\
+		 			$\equiv  \lnot q \lor p \lor r $\\
+		 			$\equiv  q \implies (p \lor r)$\\
+		 \item[f)] $p \iff q $ và $ (p \implies q) \land (q \implies p)$
+		 	\begin{table} [h]
+		 		\centering
+		 		\begin{tabular} {|c|c|c|c|c|c|c|}
+		 			\hline
+		 			$p$&$q$&$p \implies q$&$q \implies p$&$(p \implies q) \land (q \implies p)$ &$p \iff q$ &$p \iff q \vDash (p \implies q) \land (q \implies p)$\\
+		 			\hline
+		 			1&1&1&1&1&1&1\\
+		 			1&0&0&1&0&0&1\\
+		 			0&1&1&0&0&0&1\\
+		 			0&0&1&1&1&1&1\\
+		 			\hline
+		 		\end{tabular}
+		 	\end{table}
+	\end{enumerate}
 \clearpage
 \subsubsection{Bài tập 10}
 \textbf{Đề bài: } Show that these compound propositionals are logically equivalent by developing a series of logical equivalences \\\ \\\
