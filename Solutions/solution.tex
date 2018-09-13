@@ -182,13 +182,13 @@ KHOA KHOA HỌC - KỸ THUẬT MÁY TÍNH
 \subsubsection{Bài tập 10}
 \textbf{Đề bài: } Show that these compound propositionals are logically equivalent by developing a series of logical equivalences \\\ \\\
 a) $\lnot(p\rightarrow (\lnot q \land r))$ and $p \land (q \lor \lnot r)$.\\\
-b) $\lnot(p \land (q\lor r)) \land (\lnot p \lor \lnot q \lor r)$ and $\lnot p \lor \lnot r$. \\\
+b) $\lnot[(p \land (q\lor r)) \land (\lnot p \lor \lnot q \lor r)]$ and $\lnot p \lor \lnot r$. \\\
 c) $\lnot [[[[(p \land q)\land r] \lor [(p \land r) \land \lnot r]] \lor \lnot q] \rightarrow s]$ and $[(p \land r) \lor \lnot q] \land \lnot s$. \\\ \\\
 \textbf{Lời giải:} \\\ \\\
 a) Ta có: \\\
 $\lnot(p\rightarrow (\lnot q \land r)) \\\equiv \lnot(\lnot p \lor(\lnot q \land r)) \\\equiv p \land \lnot (\lnot q \land r) \\\equiv p \land (q \lor \lnot r)$ \\\ \\\
 b) Ta có: \\\
-$\lnot(p \land (q\lor r)) \land (\lnot p \lor \lnot q \lor r) \\\equiv (\lnot p \lor \lnot (q\lor r)) \land (\lnot p \lor \lnot q \lor r) \\\equiv \lnot p \lor ( \lnot (q\lor r)) \land (\lnot q \lor r)) \\\equiv \lnot p \lor \lnot ((q\lor r) \lor (q \land \lnot r)) \\\equiv\lnot p \lor \lnot (q\lor ((r \lor q) \land (r \lor \lnot r)) \\\equiv \lnot p \lor \lnot (q\lor r)$ \\\ \\\
+$\lnot[(p \land (q\lor r)) \land (\lnot p \lor \lnot q \lor r)] \\\equiv \lnot (p \land (q\lor r)) \lor \lnot(\lnot p \lor \lnot q \lor r) \\\equiv (\lnot p \lor \lnot (q\lor r)) \lor (p \land q \land \lnot r) \\\equiv \lnot p \lor (p \land q \land \lnot r) \lor (\lnot q \land \lnot r) \\\equiv ((\lnot p \lor p) \land (\lnot p \lor (q \land \lnot r))) \lor (\lnot q \land \lnot r) \\\equiv (\textbf{T} \land (\lnot p \lor (q \land \lnot r))) \lor (\lnot q \land \lnot r) \\\equiv \lnot p \lor (q \land \lnot r) \lor (\lnot q \land \lnot r) \\\equiv \lnot p \lor (\lnot r \land (q \lor \lnot q)) \\\equiv \lnot p \lor (\lnot r \land \textbf{T}) \\\equiv \lnot p \lor \lnot r$ \\\ \\\
 c) Ta có: \\\
 $\lnot [[[[(p \land q)\land r] \lor [(p \land r) \land \lnot r]] \lor \lnot q] \rightarrow s] \\\equiv \lnot [[(p \land q \land r) \lor (p \land (r \land \lnot r)) \lor \lnot q] \rightarrow s] \\\equiv \lnot [[(p \land q \land r) \lor (p \land \textbf{F}) \lor \lnot q] \rightarrow s] \\\equiv \lnot [[(p \land q \land r) \lor \textbf{F} \lor \lnot q] \rightarrow s]\\\equiv \lnot [[(p \land q \land r) \lor \lnot q] \rightarrow s]\\\equiv \lnot [\lnot [(p \land q \land r) \lor \lnot q] \lor s] \\\equiv [(p \land q \land r) \lor  \lnot q]\land \lnot s\\\equiv [[(p \land r) \lor  \lnot q] \land (q \lor \lnot q)]\land \lnot s\\\equiv [[(p \land r) \lor  \lnot q] \land \textbf{T}]\land \lnot s \\\equiv [(p \land r) \lor \lnot q] \land \lnot s$
 
@@ -196,19 +196,19 @@ $\lnot [[[[(p \land q)\land r] \lor [(p \land r) \land \lnot r]] \lor \lnot q] \
 \subsubsection{Bài tập 11}
 \textbf{Đề bài:} You cannot edit a protected Wikipedia entry unless you are an administrator. Express your answer in terms of $e$: “You can edit a protected Wikipedia entry” and $a$: “You are an administrator.” \\\ \\\
 \textbf{Lời giải:} \\\ \\\
-Ta có thể biểu diễn sang: $a \leftrightarrow e$.
+Ta có thể biểu diễn sang: $\lnot a \rightarrow \lnot e$.
 \clearpage
 \subsubsection{Bài tập 12}
 \textbf{Đề bài:} You can see the movie only if you are over 18 years old or you have the permission of a parent. Express your answer in terms of $m$: “You can see the movie,” $e$: “You are over 18 years old,” and $p$: “You have the permission of a parent.” \\\ \\\
 \textbf{Lời giải:} \\\ \\\
-Ta có thể biểu diễn sang: $(e \lor p) \leftrightarrow m$.
+Ta có thể biểu diễn sang: $\lnot (e \lor p) \rightarrow \lnot m$.
 \clearpage
 \subsubsection{Bài tập 13}
 \textbf{Đề bài:} You can graduate only if you have completed the requirements of your major and you do not owe money to the university and you do not have an overdue library book. Express your answer in terms of
 $g$: “You can graduate,” $m$: “You owe money to the university,” $r$: “You have completed the requirements
 of your major,” and $b$: “You have an overdue library book.” \\\ \\\
 \textbf{Lời giải:} \\\ \\\
-Ta có thể biểu diễn sang: $(\lnot m \land r \land b) \leftrightarrow g$.
+Ta có thể biểu diễn sang: $(m \lor \lnot r \lor b) \rightarrow \lnot g$.
 \clearpage
 \subsubsection{Bài tập 14}
 
