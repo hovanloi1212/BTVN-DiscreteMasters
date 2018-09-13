@@ -153,7 +153,6 @@ KHOA KHOA HỌC - KỸ THUẬT MÁY TÍNH
 \section{DS\_propositionallogic.pdf}
 \subsection{Bài tập bắt buộc}
 \subsubsection{Bài tập 1}
-assasdknfksdjf
 
 \clearpage
 \subsubsection{Bài tập 2}
@@ -181,6 +180,17 @@ assasdknfksdjf
 
 \clearpage
 \subsubsection{Bài tập 10}
+\textbf{Đề bài: } Show that these compound propositionals are logically equivalent by developing a series of logical equivalences \\\ \\\
+a) $\lnot(p\rightarrow (\lnot q \land r))$ and $p \land (q \lor \lnot r)$.\\\
+b) $\lnot[(p \land (q\lor r)) \land (\lnot p \lor \lnot q \lor r)]$ and $\lnot p \lor \lnot r$. \\\
+c) $\lnot [[[[(p \land q)\land r] \lor [(p \land r) \land \lnot r]] \lor \lnot q] \rightarrow s]$ and $[(p \land r) \lor \lnot q] \land \lnot s$. \\\ \\\
+\textbf{Lời giải:} \\\ \\\
+a) Ta có: \\\
+$\lnot(p\rightarrow (\lnot q \land r)) \\\equiv \lnot(\lnot p \lor(\lnot q \land r)) \\\equiv p \land \lnot (\lnot q \land r) \\\equiv p \land (q \lor \lnot r)$ \\\ \\\
+b) Ta có: \\\
+$\lnot[(p \land (q\lor r)) \land (\lnot p \lor \lnot q \lor r)] \\\equiv \lnot (p \land (q\lor r)) \lor \lnot(\lnot p \lor \lnot q \lor r) \\\equiv (\lnot p \lor \lnot (q\lor r)) \lor (p \land q \land \lnot r) \\\equiv \lnot p \lor (p \land q \land \lnot r) \lor (\lnot q \land \lnot r) \\\equiv ((\lnot p \lor p) \land (\lnot p \lor (q \land \lnot r))) \lor (\lnot q \land \lnot r) \\\equiv (\textbf{T} \land (\lnot p \lor (q \land \lnot r))) \lor (\lnot q \land \lnot r) \\\equiv \lnot p \lor (q \land \lnot r) \lor (\lnot q \land \lnot r) \\\equiv \lnot p \lor (\lnot r \land (q \lor \lnot q)) \\\equiv \lnot p \lor (\lnot r \land \textbf{T}) \\\equiv \lnot p \lor \lnot r$ \\\ \\\
+c) Ta có: \\\
+$\lnot [[[[(p \land q)\land r] \lor [(p \land r) \land \lnot r]] \lor \lnot q] \rightarrow s] \\\equiv \lnot [[(p \land q \land r) \lor (p \land (r \land \lnot r)) \lor \lnot q] \rightarrow s] \\\equiv \lnot [[(p \land q \land r) \lor (p \land \textbf{F}) \lor \lnot q] \rightarrow s] \\\equiv \lnot [[(p \land q \land r) \lor \textbf{F} \lor \lnot q] \rightarrow s]\\\equiv \lnot [[(p \land q \land r) \lor \lnot q] \rightarrow s]\\\equiv \lnot [\lnot [(p \land q \land r) \lor \lnot q] \lor s] \\\equiv [(p \land q \land r) \lor  \lnot q]\land \lnot s\\\equiv [[(p \land r) \lor  \lnot q] \land (q \lor \lnot q)]\land \lnot s\\\equiv [[(p \land r) \lor  \lnot q] \land \textbf{T}]\land \lnot s \\\equiv [(p \land r) \lor \lnot q] \land \lnot s$
 
 \clearpage
 \subsubsection{Bài tập 11}
