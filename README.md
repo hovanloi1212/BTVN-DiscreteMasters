@@ -1,8 +1,10 @@
 # BTVN-DiscreteMasters
 Đây là nơi dùng để kiểm soát bài làm BTVN của team Discrete Masters.
-Cách để thêm bài vào: 
-- Tải thư mục Solutions về máy.
-- Chèn nội dung của mình vào file solution.tex có sẵn (dùng Ctrl+F để dễ tìm mục, do file khá dài)
-- Lưu lại xong đẩy thư mục Solutions lên lại trang Github này.
-* Lưu ý: Khi đẩy thư mục lên Github, hãy để lại comment về những thay đổi mình vừa làm, gồm những nội dung gì, bài gì để dễ kiểm soát.
+Cách sử dụng: 
+* Lấy files xuống: tải thư mục Solution xuống và viết bài của mình vào (chỉ cần tải 1 lần).
+* Up files lên: 
+1. Chọn branch mang tên của mình (nằm cùng hàng với nút Download màu xanh lá).
+2. Kéo thả thư mục Solution vào.
+3. Đợi tải lên hoàn tất rồi nhấn Commit.
+
 Thanks.
