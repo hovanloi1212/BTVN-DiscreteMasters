@@ -183,19 +183,125 @@ KHOA KHOA HỌC - KỸ THUẬT MÁY TÍNH
 \textbf{Lời giải:} \\\ \\\
 \clearpage
 \subsubsection{Bài tập 7}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Evaluate each of these expressions.
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+	\begin{enumerate}
+		\item [a)]
+		$11000 \land (01011 \lor 11011)$\\$\equiv11000 \land 11011$\\$\equiv11000$
+		\item [b)]
+		$(01111 \land 10101) \lor 01000$\\$\equiv 00101 \lor 01000$\\ $\equiv 01101$\\
+	\end{enumerate}
 \clearpage
 \subsubsection{Bài tập 8}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Show that each of these conditional statements is a tautology by using truth tables.
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+	\begin{enumerate}
+		\item [a)]  $(p \land q) \implies p$ \\
+					$\equiv \lnot(p \land q) \lor p$ \\
+					$\equiv \lnot p \lor \lnot q \lor p $\\
+					$\equiv T \lor \lnot q $\\
+					$\equiv T$\\
+		\item [b)]  $p \implies (p \lor q) $\\
+					$\equiv  \lnot p \lor p \lor q $\\
+					$\equiv  T \lor q $\\
+					$\equiv T $\\
+		\item [c)]  $\lnot p \implies (p \implies q) $ \\
+					$\equiv \lnot p \implies (\lnot p \lor q )$\\
+					$\equiv  \lnot (\lnot p) \lor \lnot p \lor q $\\
+					$\equiv  p \lor \lnot p \lor q $\\ $\equiv T \lor q $\\
+					$\equiv T$\\
+		\item[d)]   $(p \land q) \implies (p \implies q)$\\
+					$\equiv (p \land q) \implies (\lnot p \lor q) $\\
+					$\equiv  \lnot (p \land q ) \lor \lnot p \lor q $\\
+					$\equiv \lnot p \lor \lnot q \lor \lnot p \lor q $\\
+					$\equiv T \lor q $\\
+					$\equiv T$\\
+		\item[e)]   $\lnot (p \implies q) \implies p $\\
+					$\equiv \lnot [\lnot(p \implies q)] \lor p $\\
+					$\equiv (p \implies q) \lor p $\\ $\equiv \lnot p \lor q \lor p $\\
+					$\equiv T \lor q  $\\
+					$\equiv T$
+		\item[f)]   $\lnot(p \implies q) \implies \lnot q $\\
+					$\equiv \lnot[\lnot(p \implies q)] \lor \lnot q $\\
+					$\equiv (p \implies q) \lor \lnot q $\\
+					$\equiv \lnot p \lor q \lor \lnot q $\\
+					$\equiv T \lor \lnot p $\\
+					$\equiv T$
+		\item[g)]   $[\lnot p \land (p \lor q )] \implies q $\\
+					$\equiv \lnot [\lnot p \land (p \lor q )] \lor q $\\
+					$\equiv  [p \lor (\lnot p \land \lnot q)] \lor q$\\
+					$\equiv  [(p \lor \lnot p) \land (p \lor \lnot q )] \lor q$\\ $\equiv (T \land p \lor \lnot q) \lor q$\\
+					$\equiv  p \lor \lnot q \lor q $\\
+					$\equiv  p \lor T $\\
+					$\equiv T$\\
+		\item[h)]   $[(p \implies q) \land (q \implies r)] \implies (p \implies r)$\\
+					$\equiv \lnot [(\lnot p \lor q) \land (\lnot q \lor r)] \lor (\lnot p \lor r)$\\
+					$\equiv (p \land \lnot q) \lor (q \land \lnot r) \lor (\lnot p \lor r)$\\
+					$\equiv [\lnot p \lor (p \land \lnot q)] \lor [r \lor (q \land \lnot r)] $\\
+					$\equiv [(\lnot p \lor p) \land (\lnot p \lor \lnot q)] \lor [(r \lor q) \land (r \lor \lnot r)]$\\
+					$\equiv [T \land (\lnot p \lnot q )] \lor [(r \lor q) \land T]$\\
+					$\equiv  \lnot p \lor \lnot q \lor r \lor q $\\
+					$\equiv  T \lor \lnot p \lor r$\\
+					$\equiv T$\\
+	\end{enumerate}
 \clearpage
-\subsubsection{Bài tập 9}
-\textbf{Đề bài:} 
-\\\ \\\
+\subsubsection{Bài tập 9:}
+\textbf{Đề bài:} Show that these compound propositionals are logically equivalent. \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+\begin{enumerate}
+		\item[a)] $\lnot (p \iff q)$ và $\lnot p \iff q$
+			\begin{table} [h]
+			\centering
+			\begin{tabular} {|c|c|c|c|c|c|c|}
+				\hline
+				$p$&$q$&$\lnot p$&$  p \iff q$&$\lnot (p \iff q)$&$ \lnot p \iff q$& $\lnot (p \iff q) \vDash \lnot p \iff q$\\
+				\hline
+				1&0&0&0&0&1&1\\
+				1&1&0&1&0&0&1\\
+				0&1&1&0&1&1&1\\
+				0&0&1&1&0&0&1\\
+				\hline
+			\end{tabular}
+		\end{table}
+		\item[b)]	$(p \implies q) \land (p \implies r) $ và $ p \implies (q \land r)$\\
+					$(p \implies q) \land (p \implies r)$\\
+					$\equiv (\lnot p \lor q) \land (\lnot p \lor r)$\\
+					$\equiv  \lnot p \land (q \lor r)$\\
+					$\equiv  p \implies (q \lor r)$\\
+		 \item[c)]  $(p\implies r) \land (q \implies r) $ và $ (p \lor q) \implies r$\\ 
+		 			$(p\implies r) \land (q \implies r)$\\
+		 			$\equiv (\lnot p \lor r) \land (\lnot q \lor r)$\\
+		 			$\equiv (\lnot q \land \lnot p) \lor r$\\
+		 			$\equiv  \lnot(\lnot p \land \lnot q) \implies r$\\
+		 			$\equiv (p \lor q) \implies r$\\
+		 \item[d)]	$(p \implies q) \lor (p \implies r) $ và $ p \implies (q \lor r)$\\
+		 			$(p \implies q) \lor (p \implies r)$\\
+		 			$\equiv  \lnot p \lor q \lor \lnot p \lor r$\\
+		 			$\equiv  \lnot p \lor (q \lor r)$\\ $\equiv  p \implies (q \lor r)$\\
+		 \item[e)]	$\lnot p \implies (q \implies r) $ và $ q \implies (p \lor r)$\\
+		 			$\lnot p \implies (q \implies r)$\\
+		 			$\equiv  \lnot p \implies (\lnot q \lor r)$\\
+		 			$\equiv  \lnot (\lnot p) \lor \lnot q \lor r)$\\
+		 			$\equiv p \lor \lnot q \lor r$\\
+		 			$\equiv  \lnot q \lor p \lor r $\\
+		 			$\equiv  q \implies (p \lor r)$\\
+		 \item[f)] $p \iff q $ và $ (p \implies q) \land (q \implies p)$
+		 	\begin{table} [h]
+		 		\centering
+		 		\begin{tabular} {|c|c|c|c|c|c|c|}
+		 			\hline
+		 			$p$&$q$&$p \implies q$&$q \implies p$&$(p \implies q) \land (q \implies p)$ &$p \iff q$ &$p \iff q \vDash (p \implies q) \land (q \implies p)$\\
+		 			\hline
+		 			1&1&1&1&1&1&1\\
+		 			1&0&0&1&0&0&1\\
+		 			0&1&1&0&0&0&1\\
+		 			0&0&1&1&1&1&1\\
+		 			\hline
+		 		\end{tabular}
+		 	\end{table}
+	\end{enumerate}
 \clearpage
 \subsubsection{Bài tập 10}
 \textbf{Đề bài: } Show that these compound propositionals are logically equivalent by developing a series of logical equivalences \\\ \\\
@@ -271,14 +377,36 @@ Ta có thể biểu diễn sang: $(m \lor \lnot r \lor b) \rightarrow \lnot g$.
 \textbf{Lời giải:} \\\ \\\
 \clearpage
 \subsubsection{Bài tập 5}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Show that $[p \land (p \implies q)] \implies q$\\ is a tautology using truth tables.
 \\\ \\\
-\textbf{Lời giải:} \\\ \\\
+\textbf{Lời giải:}\\\ \\\
+\begin{table} [h]
+		\centering
+		\begin{tabular} {|c|c|c|c|c|}
+			\hline
+			$p$&$q$&$p \implies q$& $p \land (p \implies q)$ &$[p \land (p \implies q)]\implies q$\\
+			\hline
+			1&1&1&1&1\\
+			\hline
+			1&0&0&0&1\\
+			\hline
+			0&1&1&0&1\\
+			\hline
+			0&0&1&0&1\\
+			\hline
+		\end{tabular}
+	\end{table}
 \clearpage
-\subsubsection{Bài tập 6}
-\textbf{Đề bài:} 
+\subsubsection{Bài tập 6} 
+\textbf{Đề bài:} Prove that $(p \implies q) \lor (p \implies r)$ và $p \implies (q \lor r)$ are logically equivalent (without using
+this equivalence from the tables).
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+$(p \implies q) \lor (p \implies r)$ và $p \implies (q \lor r)$
+$(p \implies q) \lor (p \implies r)$\\
+$\equiv (\lnot p \lor q) \lor (\lnot p \lor r)$\\
+$\equiv \lnot p \lor (q \lor r)$\\
+$\equiv p \implies (q \lor r)$\\
 \clearpage
 \subsubsection{Bài tập 7}
 \textbf{Đề bài: }Find an assignment of the variables $p, q, r$ such that the proposition $(p \lor \lnot q) \land (p \lor q) \land (q \lor r) \land (q \lor \lnot r) \land (r \lor \lnot p) \land (r \lor p)$ is satisfied. For a bonus 5 points, prove that this assignment is unique. \\\ \\\
@@ -361,40 +489,79 @@ Ta có điều phải chứng minh.
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
 \clearpage
-\subsubsection{Bài tập 15}
-\textbf{Đề bài:} 
+\subsubsection{Bài tập 15} 
+\textbf{Đề bài:} Use rules of inference to show that if $\forall x (P(x) \lor Q(x)), \forall x(\lnot Q(x) \lor S(x)), \forall x(R(x) \implies \lnot S(x)$ and $\exists x \lnot P(x) $ are true, then $\exists x \lnot R(x)$ is true.
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+\begin{enumerate}
+		\item $\exists x \lnot P(x)$ \hfill Premise\\
+		\item $\lnot P(a)$\hfill Existentail Instantiation from (1)\\
+		\item $ \forall x (P(x) \lor Q(x))$\hfill Premise\\
+		\item $ P(a) \lor Q(a)$\hfill Universal Instantiation from (3)\\
+		\item $ Q(a)$\hfill Disjunctive syllogism from (2) and (4)\\
+		\item $\forall x (\lnot Q(x) \lor S(x))$\hfill Premise\\
+		\item $ Q(a) \lor S(a)$\hfill Universal Instantiation from (6)\\
+		\item $ S(a)$\hfill Disjunctive syllogism from (5) and (7)\\
+		\item $ \forall x (R(x) \implies \lnot S(x))$\hfill Premise \\
+		\item $ \lnot R(a) \implies S(a)$\hfill Universal Instantiation from (9)\\
+		\item $ \lnot R(a)$\hfill Moduns tollens from (7) and (9)\\
+	\end{enumerate}
 \clearpage
 \subsubsection{Bài tập 16}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Use a direct proof to show that the sum of two odd integers is even.
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+	if $a$,$b$ are two odd integer, then $a+b$ is even\\
+		Assume that $a$ and $b$ are odd. By the definition, $a=2m+1$ and $b+2n+1$, ($m$,$n$ $\in Z$)\\
+		$a+b=2m+2n+2=2(m+n+1)$ is an even number\\
 \clearpage
 \subsubsection{Bài tập 17}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Use a direct proof to show that the product of two odd numbers is odd.
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+	if $a$,$b$ are odd number, then the product of a,b is odd\\
+		Assume that $a$ and $b$ are odd. By the definition, $a=2m+1$ and $b+2n+1$, ($m$,$n$ $\in Z$)\\
+		$ab=(2m+1)(2n+1)=4mn+2m+2n+1=2(2mn+m+n)+1$ is an odd number\\
+
 \clearpage
 \subsubsection{Bài tập 18}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Use a direct proof to show that every odd integer is the difference of two squares.
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+	if $a$ is odd then $a$ is the result of the difference of the two squares
+		Assume that $a$ is odd. By the definition $a=2n+1$ $n \in Z$	
+		$a=2n+1=n^{2}+2n+1-n^{2}=(n+1)^{2}-n^{2}$\\
+
 \clearpage
 \subsubsection{Bài tập 19}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Proof that if n + m and n + p are even integers, where m; n; p are integers, then m + p is even. What
+kind of proof did you use?
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+Using direct proof
+		Assume that $n+m$,$n+p$ are even. By the definition $n+m=2a+1$,$n+p=2b+1$ $a,b \in Z$
+		$n+m+n+p=2a+2b+2=2(a+b+1)$\\
+		$\equiv m+p=2(a+b+1)-2n$\\
+		$\equiv m+p=2(a+b+1-n)$\\
 \clearpage
-\subsubsection{Bài tập 20}
+\subsubsection{Bài tập 20} Prove that the sum of two rational numbers is rational.
 \textbf{Đề bài:} 
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+if $a$,$b$ are rational, then $a+b$ is ratioaal\\
+		Assume $a$,$b$ is rational. By the definition, $a=\frac{m}{n}$,$b=\frac{p}{q}$\\
+		$a+b=\frac{m}{n}+\frac{p}{q}=\frac{mq+np}{p+q}$\\
+
 \clearpage
-\subsubsection{Bài tập 21}
+\subsubsection{Bài tập 21} Use a proof by contradiction to prove that the sum of an irrational number and a rational number is
+irrational.
 \textbf{Đề bài:} 
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+if $a$ is an irrational number and $b$ is a rational number then $a+b$ is an irrational number
+		Assume that $a$ is irrational number, $b$ is a rational number.\\
+		Proposition $a+b$ is rational, $(a+b)-b=a$ is rational\\
+		We assume that $a$ is irrational. In proposition, we proof that a is rational. That means proposition contradict with the assumption. So $a+b$ is irrational number\\
 \clearpage
 \subsubsection{Bài tập 22}
 \textbf{Đề bài: }Prove that if $x$ is irrational, then $1/x$ is irrational. \\\ \\\
@@ -569,9 +736,14 @@ Vậy ta có điều phải chứng minh.
 \textbf{Lời giải:} \\\ \\\
 \clearpage
 \subsubsection{Bài tập 3}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} et P(x; y), Q(x; y), and R(x) be propositional functions. Use logical equivalences to
+show that $\lnot \forall x ((\exists y (P(x,y) \implies Q(x,y))) \lor R(x))$ và $\equiv \exists x (\lnot R(x) \land \forall y (\lnot Q(x,y) \land P(x,y)))$
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+$\lnot \forall x ((\exists y (P(x,y) \implies Q(x,y))) \lor R(x))$\\
+	$\equiv \lnot \forall x ((\exists y (\lnot P(x,y) \lor Q(x,y))) \lor R(x))$\\
+	$\equiv \exists x ((\forall y (P(x,y) \land \lnot Q(x,y))) \land \lnot R(x)$\\
+	$\equiv \exists x (\lnot R(x) \land \forall y (\lnot Q(x,y) \land P(x,y)))$\\
 \clearpage
 \subsubsection{Bài tập 4}
 \textbf{Đề bài:} Use rules of inference to show that if $p \land q$, $r \lor s$, and $p \rightarrow \lnot r$, then $s$ is true. \\\ \\\
@@ -610,9 +782,17 @@ Q.E.D
 \textbf{Lời giải:} \\\ \\\
 \clearpage
 \subsubsection{Bài tập 3}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Prove that $\sqrt{35}$ is irrational 
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+Assume that $\sqrt{35}$ is rational. if so, $\exists a,b (a,b \in Z) \sqrt{35}=\frac{a}{b}$. a,b is the smallest such as possible integer.\\
+	$\frac{a^{2}}{b^{2}}=35 \equiv a^{2}=35b^{2}$\\
+	The right hand has factors of 5 and 7, so $a^{2}$ must be divisible by 5 and 7. By the unique prime factorization theorem , a must be divisible by 5 and 7 too. So $a=35k (k \in N)$ then $a^{2}=(35k)^{2}$\\
+	$\equiv (35k)^{2}=35(b)^{2}$\\
+	$\equiv 35(k)^{2}=(b)^{2}$\\
+	$\equiv (\frac{b}{k})^{2}=35$\\
+	$\equiv \frac{b}{k}=\sqrt{35}$\\
+	Because $\sqrt{35}$>1, b>k, so it is contradicting our assumption. Therefore, $\sqrt{35}$ is irrational. 
 \clearpage
 \subsubsection{Bài tập 4}
 \textbf{Đề bài:} In the country of Togliristan (where Knights, Knaves, and Togglers live), Togglers will alternate between telling the truth and lying (no matter what other people say). You meet two people, A and B. They say, in order: \\\
