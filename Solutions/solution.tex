@@ -183,17 +183,23 @@ KHOA KHOA HỌC - KỸ THUẬT MÁY TÍNH
 \textbf{Lời giải:} \\\ \\\
 \clearpage
 \subsubsection{Bài tập 7}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Evaluate each of these expressions
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+\begin{enumerate}
+		\item [a)]
+		$11000 \land (01011 \lor 11011)$\\$\equiv11000 \land 11011$\\$\equiv11000$
+		\item [b)]
+		$(01111 \land 10101) \lor 01000$\\$\equiv 00101 \lor 01000$\\ $\equiv 01101$\\
+	\end{enumerate}
 \clearpage
 \subsubsection{Bài tập 8}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Show that each of these conditional statements is a tautology by using truth tables
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
 \clearpage
 \subsubsection{Bài tập 9}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Show that these compound propositionals are logically equivalent
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
 \clearpage
@@ -271,12 +277,13 @@ Ta có thể biểu diễn sang: $(m \lor \lnot r \lor b) \rightarrow \lnot g$.
 \textbf{Lời giải:} \\\ \\\
 \clearpage
 \subsubsection{Bài tập 5}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Show that [p ^ (p ! q)] ! q is a tautology using truth tables
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
 \clearpage
 \subsubsection{Bài tập 6}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Prove1 that $(p \implies q) \lor (p \implies r)$ và $p \implies (q \lor r)$ are logically equivalent (without using
+this equivalence from the tables)
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
 \clearpage
@@ -569,9 +576,14 @@ Vậy ta có điều phải chứng minh.
 \textbf{Lời giải:} \\\ \\\
 \clearpage
 \subsubsection{Bài tập 3}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Let P(x; y), Q(x; y), and R(x) be propositional functions. Use logical equivalences to
+show that $\exists x (\lnot R(x) \land \forall y (\lnot Q(x,y) \land P(x,y)))$ are equivalent
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+	$\lnot \forall x ((\exists y (P(x,y) \implies Q(x,y))) \lor R(x))$\\
+	$\equiv \lnot \forall x ((\exists y (\lnot P(x,y) \lor Q(x,y))) \lor R(x))$\\
+	$\equiv \exists x ((\forall y (P(x,y) \land \lnot Q(x,y))) \land \lnot R(x)$\\
+	$\equiv \exists x (\lnot R(x) \land \forall y (\lnot Q(x,y) \land P(x,y)))$\\
 \clearpage
 \subsubsection{Bài tập 4}
 \textbf{Đề bài:} Use rules of inference to show that if $p \land q$, $r \lor s$, and $p \rightarrow \lnot r$, then $s$ is true. \\\ \\\
@@ -610,9 +622,17 @@ Q.E.D
 \textbf{Lời giải:} \\\ \\\
 \clearpage
 \subsubsection{Bài tập 3}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Prove that $\sqrt{35} is irrational
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+	Assume that $\sqrt{35}$ is rational. if so, $\exists a,b (a,b \in Z) \sqrt{35}=\frac{a}{b}$. a,b is the smallest such as possible integer.\\
+	$\frac{a^{2}}{b^{2}}=35 \equiv a^{2}=35b^{2}$\\
+	The right hand has factors of 5 and 7, so $a^{2}$ must be divisible by 5 and 7. By the unique prime factorization theorem , a must be divisible by 5 and 7 too. So $a=35k (k \in N)$ then $a^{2}=(35k)^{2}$\\
+	$\equiv (35k)^{2}=35(b)^{2}$\\
+	$\equiv 35(k)^{2}=(b)^{2}$\\
+	$\equiv (\frac{b}{k})^{2}=35$\\
+	$\equiv \frac{b}{k}=\sqrt{35}$\\
+	Because $\sqrt{35}$>1, b>k, so it is contradicting our assumption. Therefore, $\sqrt{35}$ is irrational.
 \clearpage
 \subsubsection{Bài tập 4}
 \textbf{Đề bài:} In the country of Togliristan (where Knights, Knaves, and Togglers live), Togglers will alternate between telling the truth and lying (no matter what other people say). You meet two people, A and B. They say, in order: \\\
@@ -667,12 +687,13 @@ Vậy (A,B) chỉ có thể là (Knave, Toggler) và (Toggler, Toggler).
 \textbf{Lời giải:} \\\ \\\
 \clearpage
 \subsubsection{Bài tập 5}
-\textbf{Đề bài:} 
-\\\ \\\
+\textbf{Đề bài:} Let A and B be sets. Prove that 
 \textbf{Lời giải:} \\\ \\\
 \clearpage
 \subsubsection{Bài tập 6}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Let A, B, and C be subsets of a universe U. Use definitions of set operations and set
+identities to prove the following equality of sets:
+
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
 \clearpage
@@ -714,7 +735,8 @@ Ta thấy mọi ảnh của $g \circ f$ đều phân biệt và mọi ảnh đ�
 \textbf{Lời giải:} \\\ \\\
 \clearpage
 \subsubsection{Bài tập 3}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Mathematical induction can be used to prove things that can be proven directly. In
+the two problems below, you will essentially prove the induction step of an induction proof
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
 \clearpage
